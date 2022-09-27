@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Droid+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+:root {
+--primary: #5177cf;
+--primary-light: #85a0dd;
+--primary-med-lt: #496bba;
+--primary-medium: #415fa6;
+--primary-dark: #31477c;
+--primary-darker: #203053;
+--off-white: #fafafa;
+}
+/***Top Navbar***/
+/*Instance Title*/
+span.banner-text.h5 {
+font-family: Droid Sans;
+text-transform: uppercase;
+text-align: right;
+color: #ffffff;
+font-weight: 700;
+font-style: normal;
+font-size: 22px;
+line-height: 14px;
+}
+/*Navbar Background*/
+div.navbar.navbar-default.sn-frameset-header {
+background-color: var(--primary);
+}
+/*Navbar Divider*/
+div.navbar-divider {
+background-color: #ffffff;
+}
+/*Filter Navigator*/
+.input-group-addon-transparent.icon-filter
+{
+color: var(--primary-medium);
+}
+input.form-control.form-control-search {
+border-color: var(--primary-medium);
+}
+/*Lef Nav Top Buttons*/
+.sn-navhub.sn-navhub_themed .sn-navhub-btn::before {
+color: var(--primary);
+}
+.sn-navhub.sn-navhub_themed .sn-navhub-btn.state-active::before  {
+color: #fff;
+background-color: var(--primary);
+}
+.sn-navhub.sn-navhub_themed .sn-navhub-btn.state-active::after {
+background-color: var(--primary);
+}
+/**Left Nav Menu Items***/
+/*Normal Link*/
+.sn-widget-list-item.sn-widget-list-item_hidden-action.module-node {
+background-color: var(--primary);
+}
+/*Opened Link Group*/
+a.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.nav-open-state {
+background-color: var(--primary-medium);
+}
+/*Collapsed Link Group*/
+a.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.collapsed {
+ background-color: var(--primary-med-lt);
+}
+/*Regular Link Text*/
+.sn-aside.sn-aside_themed .sn-aside-group-title {
+color: var(--primary-darker);
+}
+/*Expanded/Colored Link Text*/
+.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav {
+color: #fff;
+}
+/*Link Divider*/
+.sn-widget-list-divider {
+background-color: var(--off-white);
+}
+/***Favorites***/
+/*AllFavorites Link*/
+.nav-favorite-title {
+color: var(--primary-darker);
+}
+/*Active Favorites Link*/
+.sn-aside.sn-aside_themed .sn-widget-list_v2 .sn-widget-list-item:active {
+background-color: var(--primary-light);
+color: #fff;
+}
+ 
+/*Loading Favorites Link*/
+.sn-aside.sn-aside_themed .sn-widget-list_v2 .sn-widget-list-item:focus {
+background-color: var(--primary-light);
+color: #fff;
+}
+/********Backend Only**********/
+/*Body links*/
+HTML[data-doctype=true] a {
+color: var(--primary-dark);
+}
+/*List filter toggle*/
+.list_nlq_filter_toggle {
+color: var(--primary-dark);
+}
+/*Body text*/
+HTML[data-doctype=true] body {
+color: var(--primary-darker);
+}
+/*List view buttons*/
+HTML[data-doctype=true] .table .table-btn-lg {
+color: var(--primary-dark);
+}
+/*Colored buttons*/
+HTML[data-doctype=true] .btn-primary {
+ background-color: var(--primary);
+ border-color: var(--primary-med-lt);
+ color: #fff;
+}
+/*Text input shadow*/
+HTML[data-doctype=true] .form-control:focus {
+border-color: var(--primary);
+box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--primary);
+}
+/*Nav footer buttons*/
+HTML[data-doctype=true] .sn-pane-footer .sn-pane-action {
+color: var(--primary-darker);
+}
+/*Nav Recent Items Titles*/
+magellan-history-compact.navigator-view.nav-history-list * {
+color: var(--primary-darker);
+}
+
+/***WORKFLOW AND FLOW EDITOR*****/
+div.workflow-tabs-scroller {
+  background-color: var(--primary);
+}
+.react-tabs__tab-list {
+  background-color: var(--primary);
+}
+
