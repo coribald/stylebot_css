@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css2?family=Droid+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+:root {
+--primary: #d1353b;
+--primary-light: #df7276;
+--primary-med-lt: #bc3035;
+--primary-medium: #a72a2f;
+--primary-dark: #691b1e;
+--primary-darker: #3f1012	;
+--off-white: #fafafa;
+}
+/***Top Navbar***/
+
+/*Instance Title*/
+span.banner-text:after {
+  content: 'YOU ARE IN PRODUCTION';
+  font-family: Droid Sans;
+  text-transform: uppercase;
+  text-align: right;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 14px;
+}
+/*Navbar Background*/
+div.navbar.navbar-default.sn-frameset-header {
+background-color: var(--primary);
+}
+/*Navbar Divider*/
+div.navbar-divider {
+display: none;
+}
+
+/*Lef Nav Top Buttons*/
+.sn-navhub.sn-navhub_themed .sn-navhub-btn::before {
+ color: var(--primary);
+ border: 0px;
+}
+.sn-navhub.sn-navhub_themed .sn-navhub-btn.state-active::before  {
+ color: #fff;
+ background-color: var(--primary);
+}
+.sn-navhub.sn-navhub_themed .sn-navhub-btn.state-active::after {
+ background-color: var(--primary);
+}
+
+/********Backend Only**********/
+/*Body links*/
+HTML[data-doctype=true] a {
+color: var(--primary-dark);
+}
+/*List filter toggle*/
+.list_nlq_filter_toggle {
+color: var(--primary-dark);
+}
+/*Body text*/
+HTML[data-doctype=true] body {
+color: var(--primary-darker);
+}
+/*List view buttons*/
+HTML[data-doctype=true] .table .table-btn-lg {
+color: var(--primary-dark);
+}
+/*Colored buttons*/
+HTML[data-doctype=true] .btn-primary {
+ background-color: var(--primary);
+ border-color: var(--primary-med-lt);
+ color: #fff;
+}
+/*Text input shadow*/
+HTML[data-doctype=true] .form-control:focus {
+border-color: var(--primary);
+box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--primary);
+}
+
+/****************MAIN NAV*************/
+/**Left Nav Menu Items***/
+/*Normal Link*/
+.sn-widget-list-item.sn-widget-list-item_hidden-action.module-node {
+background-color: var(--primary);
+}
+/*Opened Link Group*/
+a.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.nav-open-state {
+background-color: var(--primary-medium);
+}
+/*Collapsed Link Group*/
+a.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.collapsed {
+ background-color: var(--primary-med-lt);
+}
+/*Expanded/Colored Link Text*/
+.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav {
+color: #eee;
+}
+
+/***Favorites***/
+a.app-node.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.sn-aside-group-title_hidden.nav-application-overwrite {
+  color: #eee;
+}
+
+/***WORKFLOW AND FLOW EDITOR*****/
+div.workflow-tabs-scroller {
+  background-color: var(--primary);
+}
+.react-tabs__tab-list {
+  background-color: var(--primary);
+}
