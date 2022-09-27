@@ -1,0 +1,46 @@
+/*Hide all the nonsense and allow the player to shrink with the window. Works great in a chrome shortcut window*/
+
+div.mlbtv-header {
+  display: none
+  
+}
+
+#mlbtv-player-maincontent {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+#video__wrapper {
+  min-height: 0px;
+  min-width: 0px;
+  position: absolute;
+}
+
+div.mlbtv-players-container.layout-mode-single-view {
+  min-height: 0px;
+  min-width: 0px;
+}
+
+html.device-desktop.no-touchevents.pointerevents.responsive-support-webkit.responsive-support-use3d.responsive-support-3d.responsive-support-usetransition.responsive-support-transition.responsive-support-no-touch.responsive-support-inlinevideo.responsive-support-flex.responsive-booted {
+  min-height: 0px;
+  min-width: 0px;
+}
+
+.mlbtv-players-wrapper {
+  min-width: 0px;
+  min-height: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
