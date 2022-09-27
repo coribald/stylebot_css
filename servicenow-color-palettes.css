@@ -1,0 +1,54 @@
+/*Blue*/
+:root {
+--primary: #5177cf;
+--primary-light: #85a0dd;
+--primary-med-lt: #496bba;
+--primary-medium: #415fa6;
+--primary-dark: #31477c;
+--primary-darker: #203053;
+--off-white: #fafafa;
+}
+
+/*Teal*/
+:root {
+  --primary: #61ddca;
+  --primary-light: #a0ebdf;
+  --primary-med-lt: #57c7b6; 
+  --primary-medium: #4eb1a2;
+  --primary-dark: #449b8d;
+  --primary-darker: #1d423d;
+  --off-white: #fafafa;
+}
+
+/*Green*/
+:root {
+ --primary: #1fcf65;
+ --primary-light: #8FF18F;
+ --primary-med-lt: #1cba5b;
+ --primary-medium: #19a651;
+ --primary-dark: #3F735F;
+ --primary-darker: #4A6B56;
+ --off-white: #fafafa;
+}
+
+/*Purple*/
+:root {
+--primary: #9872db;
+--primary-light: #c1aae9;
+--primary-med-lt: #8967c5;
+--primary-medium: #7a5baf;
+--primary-dark: #4c396e;
+--primary-darker: #3d2e58;
+--off-white: #fafafa;
+}
+
+/*Yellow*/
+:root {
+--primary: #d1be68;
+--primary-light: #e8d374;
+--primary-med-lt: #baa95d;
+--primary-medium: #a29451;
+--primary-dark: #746a3a;
+--primary-darker: #463f23;
+--off-white: #fafafa;
+}
