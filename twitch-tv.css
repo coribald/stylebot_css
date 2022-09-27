@@ -1,0 +1,91 @@
+/*Grays instead of dark blacks. Narrower chat sidebar. Hide extra nonsense on channels. Good for VODs and chrome shortcut window*/
+/**SET BETTERTTV DARK MODE FIRST**/
+
+div.Layout-sc-nxg1ff-0.hhcjeu {
+  display: none;
+}
+
+div.Layout-sc-nxg1ff-0.fccECJ {
+  display: none;
+}
+
+div.Layout-sc-nxg1ff-0.GsJOM {
+  display: none;
+}
+
+div.Layout-sc-nxg1ff-0.clMmfO {
+  display: none;
+}
+
+div.InjectLayout-sc-588ddc-0.lhceQL.preview-card-carousel__body {
+  display: none;
+}
+
+div.Layout-sc-nxg1ff-0.gWEdYV {
+  width: 275px;
+  margin-right: 0px !important;
+}
+
+div.Layout-sc-nxg1ff-0.giyKYb.video-chat__header {
+  width: 275px;
+  margin-right: 0px !important;
+}
+
+div.Layout-sc-nxg1ff-0.iExHRj.video-chat.va-vod-chat {
+  width: 275px;
+  margin-right: 0px !important;
+}
+
+div.Layout-sc-nxg1ff-0.kQyoZG {
+  width: 275px;
+  margin-right: 0px !important;
+}
+
+div.Layout-sc-nxg1ff-0.SVxtW.chat-shell.chat-shell__expanded {
+  width: 275px !important;
+  margin-right: 0px !important;
+}
+
+div.Layout-sc-ng1ff-0.hmkGMl {
+  width: 275px !important;
+}
+
+div.channel-root__right-column.channel-root__right-column--expanded {
+  width: 275px !important;
+}
+
+div.Layout-sc-nxg1ff-0.skip-to-target {
+  width: 275px !important;
+}
+
+div.Layout-sc-nxg1ff-0 hoDdPM {
+  width: 275px !important;
+}
+
+div.Layout-sc-nxg1ff-0.krgsRp.right-column.right-column--beside {
+  width: 275px !important;
+}
+
+div.Layout-sc-nxg1ff-0.iQhdFE.metadata-layout__split-top {
+  background-color: #18181b;
+}
+
+div.Layout-sc-nxg1ff-0.fOsPDQ {
+  background-color: #18181b;
+}
+
+div.channel-info-content {
+  background-color: #18181b;
+}
+
+div.simplebar-content.side-nav__scrollable_content {
+  background-color: #18181b;
+}
+
+div.ScCoreButtonLabel-sc-lh1yxp-0.hCKHKu {
+  display: none;
+}
+
+.chat-shell__expanded {
+    min-width: 0px;
+}
