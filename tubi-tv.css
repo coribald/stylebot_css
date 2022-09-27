@@ -1,0 +1,27 @@
+/*Remove top nav and extra padding/spacing around player. Allows player to shrink freely with window. Works well with chrome shortcut window.*/
+
+nav.XzUbg {
+ display: none;
+ min-width: 0px;
+ min-height: 0px;
+ height: 0px;
+ width: 0px;
+}
+
+ 
+/**Player Content**/
+div.VPkoh {
+ top: 0px;
+ left: 0px;
+ min-width: 0px;
+ min-height: 0px;
+ width: calc(100vw - 18px);
+}
+
+div.rjiTB {
+  min-height: calc(100vh);
+}
+
+div.zHQGA {
+  width: calc(100vw - 20px);
+}
