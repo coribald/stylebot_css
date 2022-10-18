@@ -1,0 +1,19 @@
+a.AnchorLink.AnchorLink--dark.WatchListingsVideo__BackBtn {
+  display:none;
+}
+
+section.BucketsContainer.overflow-hidden.BucketsContainer--noHeader {
+  display:none;
+}
+
+div.Player__footer {
+  display:none;
+}
+
+.WatchListingsVideo {
+  max-width: none;
+}
+
+.WatchVideoPlayer__Metadata {
+  display: none;
+}
