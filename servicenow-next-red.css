@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css2?family=Droid+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+:root {
+--primary: #d1353b;
+--primary-rgb: 209, 53, 59;
+--primary-lightest: #f6d8d9;
+--primary-lightest-rgb: 246, 216, 217;
+--primary-lighter: #ecacae;
+--primary-lighter-rgb: 236, 172, 174;
+--primary-light: #df7276;
+--priamry-light-rgb: 223, 114, 118;
+--primary-med-lt: #bc3035;
+--primary-med-lt-rgb: 188, 48, 53;
+--primary-medium: #a72a2f;
+--primary-med-rgb: 167, 42, 47;
+--primary-dark: #761e22;
+--primary-dark-rgb: 118, 30, 34;
+--primary-darker: #5a171a;
+--primary-darker-rgb: 90, 23, 26;
+--primary-darkerer: #3f1012;
+--primary-darkerer-rgb: 63, 16, 18;
+--primary-darkest: #2a0b0c;
+--primary-darkest-rgb: 42, 11, 12;
+--off-white: #fafafa;
+--off-white-rgb: 245,240,240;
+--dark-gray: #4c4848;
+--dark-gray-rgb: 76, 72, 72;
+--darkest-gray: #1f1b1b;
+--darkest-gray-rgb: 31,27,27
+}
+
+* {
+ --now-color_brand--primary: var(--primary-med-rgb);
+ --now-unified-nav_menu-item--color: 255,255,255;
+--now-button--secondary--border-color: var(--primary-med-rgb);
+ --now-button--secondary--color: var(--primary-med-rgb);
+--now-unified-nav_header--background-color: var(--primary-med-rgb);
+ --now-color_chrome--brand-10: var(--primary-med-rgb);
+--now-unified-nav_menu--background-color: var(--darkest-gray-rgb);
+--now-unified-nav_menu-filter--background-color: var(--primary-darker-rgb);
+--now-unified-nav_menu-scrollbar--color: var(--primary-darker-rgb);
+--now-color_chrome--divider-3: var(--primary-darker-rgb);
+--now-unified-nav_menu-subitem--color: var(--primary-lightest-rgb);
+--now-color_chrome--brand-4: var(--primary-darker-rgb);
+--now-unified-nav_contextual-app-pill--background-color: var(--primary-darkest-rgb);
+--now-checkbox--background-color--checked: var(--primary-rgb);
+    --now-checkbox--border-color--checked: var(--primary-rgb);
+    --now-form-field--background-color--hover: var(--primary-lightest-rgb);
+    --now-form-field--border-color--hover: var(--primary-rgb);--now-color--primary-1: var(--primary-rgb);
+        --now-color--primary-0: var(--primary-lightest-rgb);
+        --now-button--secondary--background-color--hover: var(--primary-lightest-rgb);
+        --now-button--secondary--color--hover: var(--primary-dark-rgb);
+        --now-button--bare_primary--color--hover: var(--primary-dark-rgb);
+        --now-button--bare_primary--background-color--hover: var(--primary-rgb);
+        --now-button--bare_primary--color: var(--primary-darker-rgb);
+        --now-dropdown-list--background-color--focus: var(--primary-rgb);
+        --now-unified-nav_menu-filter--border-color--opened: var(--primary-rgb);
+        --now-button--primary--background-color: var(--primary-rgb);
+        --now-button--primary--border-color: var(--primary-rgb);
+        --now-color_brand--secondary: var(--darkest-gray-rgb);
+
+}
+
+/***Top Navbar***/
+
+/*Instance Title*/
+.experience-title::after {
+  content: 'YOU ARE IN PRODUCTION' !important;
+}
+/*Navbar Background*/
+div.navbar.navbar-default.sn-frameset-header {
+background-color: var(--primary);
+}
+/*Navbar Divider*/
+div.navbar-divider {
+display: none;
+}
+
+/*Lef Nav Top Buttons*/
+.sn-navhub.sn-navhub_themed .sn-navhub-btn::before {
+ color: var(--primary);
+ border: 0px;
+}
+.sn-navhub.sn-navhub_themed .sn-navhub-btn.state-active::before  {
+ color: #fff;
+ background-color: var(--primary);
+}
+.sn-navhub.sn-navhub_themed .sn-navhub-btn.state-active::after {
+ background-color: var(--primary);
+}
+
+/********Backend Only**********/
+/*Body links*/
+HTML[data-doctype=true] a {
+color: var(--primary-dark);
+}
+/*List filter toggle*/
+.list_nlq_filter_toggle {
+color: var(--primary-dark);
+}
+/*Body text*/
+HTML[data-doctype=true] body {
+color: var(--primary-darker);
+}
+/*List view buttons*/
+HTML[data-doctype=true] .table .table-btn-lg {
+color: var(--primary-dark);
+}
+/*Colored buttons*/
+HTML[data-doctype=true] .btn-primary {
+ background-color: var(--primary);
+ border-color: var(--primary-med-lt);
+ color: #fff;
+}
+/*Text input shadow*/
+HTML[data-doctype=true] .form-control:focus {
+border-color: var(--primary);
+box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--primary);
+}
+
+/****************MAIN NAV*************/
+/**Left Nav Menu Items***/
+/*Normal Link*/
+.sn-widget-list-item.sn-widget-list-item_hidden-action.module-node {
+background-color: var(--primary);
+}
+/*Opened Link Group*/
+a.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.nav-open-state {
+background-color: var(--primary-medium);
+}
+/*Collapsed Link Group*/
+a.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.collapsed {
+ background-color: var(--primary-med-lt);
+}
+/*Expanded/Colored Link Text*/
+.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav {
+color: #eee;
+}
+
+/***Favorites***/
+a.app-node.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.sn-aside-group-title_hidden.nav-application-overwrite {
+  color: #eee;
+}
+
+/***WORKFLOW AND FLOW EDITOR*****/
+div.workflow-tabs-scroller {
+  background-color: var(--primary);
+}
+.react-tabs__tab-list {
+  background-color: var(--primary);
+}
