@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css2?family=Droid+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+:root {
+--primary: #1fcccf;
+--primary-rgb: 31, 204, 207;
+--primary-lightest: #c7ecef;
+--primary-lightest-rgb: 199, 236, 239;
+--primary-lighter: #a7e1e6;
+--primary-lighter-rgb: 167, 225, 230;
+--primary-light: #85d6dd;
+--primary-light-rgb: 133, 214, 221;
+--primary-med-lt: #49b1ba;
+--primary-med-lt-rgb: 73, 177, 186;
+--primary-medium: #419da6;
+--primary-med-rgb: 65, 157, 166;
+--primary-dark: #36858c;
+--primary-dark-rgb: 54, 133, 140;
+--primary-darker: #31757c;
+--primary-darker-rgb: 49, 117, 124;
+--primary-darkerer: #2c676d;
+--primary-darkerer-rgb: 44, 103, 109;
+--primary-darkest: #183b3e;
+--primary-darkest-rgb: 24, 59, 62;
+--off-white: #fafafa;
+--darkest-gray: #1b1f1f;
+--darkest-gray-rgb: 27,31,31
+}
+
+* {
+ --now-color_brand--primary: var(--primary-med-rgb);
+ --now-unified-nav_menu-item--color: 255,255,255;
+--now-button--secondary--border-color: var(--primary-med-rgb);
+ --now-button--secondary--color: var(--primary-med-rgb);
+--now-unified-nav_header--background-color: var(--primary-med-rgb);
+ --now-color_chrome--brand-10: var(--primary-med-rgb);
+--now-unified-nav_menu--background-color: var(--primary-med-rgb);
+--now-unified-nav_menu-filter--background-color: var(--primary-darker-rgb);
+--now-unified-nav_menu-scrollbar--color: var(--primary-darker-rgb);
+--now-color_chrome--divider-3: var(--primary-darker-rgb);
+--now-unified-nav_menu-subitem--color: var(--primary-lightest-rgb);
+--now-color_chrome--brand-4: var(--primary-darker-rgb);
+--now-unified-nav_contextual-app-pill--background-color: var(--primary-darkest-rgb);
+--now-checkbox--background-color--checked: var(--primary-rgb);
+    --now-checkbox--border-color--checked: var(--primary-rgb);
+    --now-form-field--background-color--hover: var(--primary-lightest-rgb);
+    --now-form-field--border-color--hover: var(--primary-rgb);--now-color--primary-1: var(--primary-rgb);
+        --now-color--primary-0: var(--primary-lightest-rgb);
+        --now-button--secondary--background-color--hover: var(--primary-lightest-rgb);
+        --now-button--secondary--color--hover: var(--primary-dark-rgb);
+        --now-button--bare_primary--color--hover: var(--primary-dark-rgb);
+        --now-button--bare_primary--background-color--hover: var(--primary-rgb);
+        --now-button--bare_primary--color: var(--primary-darker-rgb);
+        --now-dropdown-list--background-color--focus: var(--primary-rgb);
+        --now-unified-nav_menu-filter--border-color--opened: var(--primary-rgb);
+        --now-button--primary--background-color: var(--primary-rgb);
+        --now-button--primary--border-color: var(--primary-rgb);
+        --now-color_brand--secondary: var(--darkest-gray-rgb);
+
+}
+/***Top Navbar***/
+/*Instance Title*/
+span.banner-text.h5 {
+font-family: Droid Sans;
+text-transform: uppercase;
+text-align: right;
+color: #ffffff;
+font-weight: 700;
+font-style: normal;
+font-size: 22px;
+line-height: 14px;
+}
+/*Navbar Background*/
+div.navbar.navbar-default.sn-frameset-header {
+background-color: var(--primary);
+}
+/*Navbar Divider*/
+div.navbar-divider {
+background-color: #ffffff;
+}
+/*Filter Navigator*/
+.input-group-addon-transparent.icon-filter
+{
+color: var(--primary-medium);
+}
+input.form-control.form-control-search {
+border-color: var(--primary-medium);
+}
+/*Lef Nav Top Buttons*/
+.sn-navhub.sn-navhub_themed .sn-navhub-btn::before {
+color: var(--primary);
+}
+.sn-navhub.sn-navhub_themed .sn-navhub-btn.state-active::before  {
+color: #fff;
+background-color: var(--primary);
+}
+.sn-navhub.sn-navhub_themed .sn-navhub-btn.state-active::after {
+background-color: var(--primary);
+}
+/**Left Nav Menu Items***/
+/*Normal Link*/
+.sn-widget-list-item.sn-widget-list-item_hidden-action.module-node {
+background-color: var(--primary);
+}
+/*Opened Link Group*/
+a.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.nav-open-state {
+background-color: var(--primary-medium);
+}
+/*Collapsed Link Group*/
+a.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav.collapsed {
+ background-color: var(--primary-med-lt);
+}
+/*Regular Link Text*/
+.sn-aside.sn-aside_themed .sn-aside-group-title {
+color: var(--primary-darker);
+}
+/*Expanded/Colored Link Text*/
+.nav-expandable.sn-aside-group-title.sn-aside-group-title_selectable.sn-aside-group-title_nav {
+color: #fff;
+}
+/*Link Divider*/
+.sn-widget-list-divider {
+background-color: var(--off-white);
+}
+/***Favorites***/
+/*AllFavorites Link*/
+.nav-favorite-title {
+color: var(--primary-darker);
+}
+/*Active Favorites Link*/
+.sn-aside.sn-aside_themed .sn-widget-list_v2 .sn-widget-list-item:active {
+background-color: var(--primary-light);
+color: #fff;
+}
+ 
+/*Loading Favorites Link*/
+.sn-aside.sn-aside_themed .sn-widget-list_v2 .sn-widget-list-item:focus {
+background-color: var(--primary-light);
+color: #fff;
+}
+/********Backend Only**********/
+/*Body links*/
+HTML[data-doctype=true] a {
+color: var(--primary-dark);
+}
+/*List filter toggle*/
+.list_nlq_filter_toggle {
+color: var(--primary-dark);
+}
+/*Body text*/
+HTML[data-doctype=true] body {
+color: var(--primary-darker);
+}
+/*List view buttons*/
+HTML[data-doctype=true] .table .table-btn-lg {
+color: var(--primary-dark);
+}
+/*Colored buttons*/
+HTML[data-doctype=true] .btn-primary {
+ background-color: var(--primary);
+ border-color: var(--primary-med-lt);
+ color: #fff;
+}
+/*Text input shadow*/
+HTML[data-doctype=true] .form-control:focus {
+border-color: var(--primary);
+box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--primary);
+}
+/*Nav footer buttons*/
+HTML[data-doctype=true] .sn-pane-footer .sn-pane-action {
+color: var(--primary-darker);
+}
+/*Nav Recent Items Titles*/
+magellan-history-compact.navigator-view.nav-history-list * {
+color: var(--primary-darker);
+}
+
+/***WORKFLOW AND FLOW EDITOR*****/
+div.workflow-tabs-scroller {
+  background-color: var(--primary);
+}
+.react-tabs__tab-list {
+  background-color: var(--primary);
+}
