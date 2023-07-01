@@ -44,3 +44,56 @@ html.device-desktop.no-touchevents.pointerevents.responsive-support-webkit.respo
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+#gameday-rightpanel__root {
+  min-width: 0px;
+  min-height: 0px;
+  height: 0px;
+  width: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: none;
+}
+
+#mlbtv-stats-panel {
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+
+.mlbtv-container--header {
+display: none;
+}
+
+.mlbtv-players-container {
+    min-width: 0px;
+  min-height: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mlbtv-container--footer {
+  display: none;
+}
+
+#mlbtv-player-maincontent {
+  min-width: 0px;
+  min-height: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mlbtv-player--active-player {
+  min-width: 0px;
+  min-height: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
